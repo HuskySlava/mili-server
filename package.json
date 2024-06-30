@@ -8,7 +8,7 @@
   "description": "Express typescript web server",
   "main": "server.js",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node dist/server.js",
     "build": "tsc",
     "dev": "npm run build && node dist/server.js"
   },
