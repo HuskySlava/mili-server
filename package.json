@@ -1,0 +1,29 @@
+{
+  "name": "mili-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "20.15.0"
+  },
+  "private": true,
+  "description": "Express typescript web server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "npm run build && node dist/server.js"
+  },
+  "author": "Slava Mihaelov",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "helmet": "^7.1.0",
+    "knex": "^3.1.0"
+  }
+}

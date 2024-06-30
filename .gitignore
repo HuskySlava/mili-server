@@ -1,0 +1,27 @@
+# Node packages
+node_modules/
+
+# Compiled code
+dist/
+
+# dotenv environment variable files
+.env
+
+# WebStorm
+.idea/
+*.iml
+
+# General IDE files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# macOS system files
+.DS_Store
